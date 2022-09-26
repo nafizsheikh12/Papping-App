@@ -1,0 +1,89 @@
+.notificationMain {
+  .MuiGrid-root
+    .MuiGrid-container
+    .MuiGrid-spacing-xs-4
+    .css-480o17-MuiGrid-root {
+    background: var(--notificationBackground);
+  }
+  .css-xt7fqp-MuiPaper-root-MuiCard-root {
+    background-color: var(--background);
+  }
+  .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
+    padding: 0px;
+  }
+  #form .MuiInputBase-input {
+    padding: 10px 20px;
+  }
+
+  .outline__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: capitalize;
+    background: transparent;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    outline: none;
+    border: none;
+    border: 1px solid #7040ff;
+    padding: 0px 10%;
+    color: #7040ff;
+    &:hover {
+      color: white;
+      background: #7040ff;
+    }
+  }
+}
+
+.widthfull{
+  width: 100%;
+  margin: 16px 0px;
+}
+
+button.btn.btn-primary.m_btn.notification-update-btn {
+ margin-top: 1rem;
+}
+
+/*-----desktop laptop --------------  */
+@media (min-width: 1024px){
+ 
+}
+
+@media (min-width:901px) and (max-width:1040px) {
+  
+}
+
+/*-----tablets and ipads --------------  */
+@media (min-width: 769px) and (max-width:1023px){
+ 
+}
+
+@media(max-width:899px){
+ 
+}
+
+/*-----mobile phone --------------  */
+@media (max-width:768px){
+ 
+.notification-update-btn {
+  margin-top: 0rem !important;
+}
+}
+
+/*----------extra small phone ------*/
+@media (max-width:600px){
+
+}
+
+/*-----small phone --------------  */
+@media (max-width: 468px){
+ 
+}
+
+
+
+
+@media (max-width:375px){
+
+}

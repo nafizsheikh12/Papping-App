@@ -1,0 +1,73 @@
+#AllAdvertiser {
+  .manageFinaceHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+  }
+  .table > :not(:first-child) {
+    border-top: 0px solid currentColor;
+  }
+
+  .duplicate_m__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: capitalize;
+    background: #7040ff;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    outline: none;
+    border: none;
+    border: 1px solid #7040ff;
+    &:hover {
+      color: #7040ff;
+      background-color: transparent;
+      border: 1px solid #7040ff;
+    }
+  }
+}
+
+/*-----desktop laptop --------------  */
+@media (min-width: 1024px){
+
+}
+
+/*-----tablets and ipads --------------  */
+@media (min-width: 769px) and (max-width:1023px){
+
+}
+
+
+/*-----mobile phone --------------  */
+@media (max-width:768px){
+   
+}
+
+/*-----small phone --------------  */
+@media (max-width: 468px){
+  button.btn.btn-primary.duplicate_m__btn {
+    font-size: 13px !important;
+}
+}
+
+/*----------extra small phone ------*/
+@media (max-width:600px){
+  .table tr th{
+    font-size: 14px !important;
+  }
+  .table tr td{
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width:375px){
+  .manageFinaceHeader h2 {
+    font-size: 17px;
+}
+button.btn.btn-primary.duplicate_m__btn {
+  font-size: 12px !important;
+}
+}

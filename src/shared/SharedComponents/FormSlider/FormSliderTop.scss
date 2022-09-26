@@ -1,0 +1,51 @@
+.FormSliderTop {
+  // margin-bottom: 55px;
+
+  .accordion-button,
+  .accordion-button:focus {
+    box-shadow: none;
+    background: var(--background);
+  }
+  // .accordion-button:focus {
+  //   box-shadow: none;
+  //   background: var(--background);
+  // }
+
+  .accordion-item {
+    margin-bottom: 12px !important;
+    border: none;
+    background: transparent !important;
+    h2{
+      button{
+      }
+    }
+  }
+  .table_head {
+    font-size: 15px !important;
+  }
+
+  .accordian__collaps {
+    line-height: 25px !important;
+    button{
+      box-shadow: none;
+      border-radius: 10px 10px 0px 0px;
+    }
+    
+  }
+  .accordion-body {
+    // background: var(--background);
+    padding: 0;
+    .accordion-hr {
+      margin-top: -19px;
+      margin-bottom: 1rem;
+      border: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: var(--secondBackground);
+}
+.css-p0rm37 {
+ border-color: red !important;
+}

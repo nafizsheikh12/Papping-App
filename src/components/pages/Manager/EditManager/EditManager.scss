@@ -1,0 +1,48 @@
+#CreateManager {
+   
+    .createFileBox {
+              border: 1px dashed ;
+              background-color: var(--background);
+    }
+
+    .fileIcon {
+              color: #F2F2F2;
+              font-size: 50px;
+    }
+    
+}
+
+
+
+/*-----desktop laptop --------------  */
+@media (min-width: 1024px){
+
+}
+
+/*-----tablets and ipads --------------  */
+@media (min-width: 769px) and (max-width:1023px){
+
+}
+
+
+/*-----mobile phone --------------  */
+@media (max-width:768px){
+    .editManagerForm {
+        width: 100%;
+    }
+}
+
+/*-----small phone --------------  */
+@media (max-width: 468px){
+   
+}
+
+
+/*----------extra small phone ------*/
+@media (max-width:600px){
+
+}
+
+@media (max-width:375px){
+  
+}

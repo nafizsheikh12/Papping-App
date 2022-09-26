@@ -1,0 +1,53 @@
+#PostBackReport{
+
+    
+
+    .table>:not(:first-child) {
+        border-top: 0px solid currentColor;
+    }
+
+}
+
+
+
+
+/*-----desktop laptop --------------  */
+@media (min-width: 1024px){
+ 
+}
+
+@media (min-width:901px) and (max-width:1040px) {
+  
+}
+
+/*-----tablets and ipads --------------  */
+@media (min-width: 769px) and (max-width:1023px){
+ 
+}
+
+@media(max-width:899px){
+ 
+}
+
+/*-----mobile phone --------------  */
+@media (max-width:768px){
+  
+}
+
+/*----------extra small phone ------*/
+@media (max-width:600px){
+
+}
+
+/*-----small phone --------------  */
+@media (max-width: 468px){
+ 
+}
+
+
+
+
+@media (max-width:375px){
+
+}
+

@@ -1,0 +1,36 @@
+.FormSlider {
+
+  
+  .accordion-button,.accordion-button:focus {
+    box-shadow: none;
+    background: var(--background);
+  }
+  // .accordion-button:focus {
+  //   box-shadow: none;
+  //   background: var(--background);
+  // }
+
+  .accordion-item {
+    margin-bottom: 12px !important;
+    border: none;
+    background: white !important;
+  }
+  .table_head {
+    font-size: 15px !important;
+  }
+
+  .accordian__collaps {
+    line-height: 25px !important;
+  }
+  .accordion-body {
+     background: var(--background);
+    .accordion-hr {
+      margin-top: -19px;
+      margin-bottom: 1rem;
+      border: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+
+ 
+}

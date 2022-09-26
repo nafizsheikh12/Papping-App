@@ -1,0 +1,74 @@
+#AdvertiserCreate {
+    h3{
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 50px;
+        text-transform: capitalize;
+        color: var( --22__to__CC);
+
+    }
+    .css-46bh2p-MuiCardContent-root{
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .createFileBox {
+        
+              border: 1px dashed ;
+              background-color: var(--background);
+    }
+    .css-s18byi {
+        background-color: var(--background);
+    }
+    .css-bhp9pd-MuiPaper-root-MuiCard-root{
+        background-color: var(--background);
+       
+        form{
+            .MuiFormLabel-root{
+                color: var(--22__to__CC);
+                text-transform: capitalize;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                   
+
+            }
+            .MuiInputLabel-formControl{
+                border-color:    var(--A5__to__CC) !important;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0em;
+                text-align: left;
+                color:    var(--A5__to__CC) !important;
+
+            }
+            fieldset{
+                border-color:    var(--A5__to__CC) !important;
+            }
+            input{
+              color:var(--A5__to__CC);
+                border-radius: 4px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0em;
+                text-align: left;
+                border-color:    var(--A5__to__CC) !important;
+
+                &:hover{
+                    border-color:    var(--A5__to__CC) !important;
+                }
+            }
+        }
+    }
+    .fileIcon {
+              color: #F2F2F2;
+              font-size: 50px;
+    }
+}

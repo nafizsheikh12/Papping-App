@@ -1,0 +1,57 @@
+.ReportAccordion {
+  .text__dark-n-light{
+      color: var(--22__to__CC) ;
+    }
+  .accordion-button {
+    background: var(--background) !important;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, 0.125);
+  }
+
+  .accordion-item {
+    // margin-bottom: 12px !important;
+    border: none;
+    background: white !important;
+  }
+  .table_head {
+    font-size: 15px !important;
+  }
+
+  .accordian__collaps {
+    line-height: 25px !important;
+  }
+  .accordion-body {
+    background: var(--background);
+    
+    .accordion-hr {
+      margin-top: -19px;
+      margin-bottom: 1rem;
+      border: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+
+
+  @media only screen and (min-width: 1200px) {
+    .table__head__width {
+      width: 1180px;
+    }
+  }
+  @media only screen and (min-width: 1500px) {
+    .table__head__width {
+      width: 1480px;
+    }
+  }
+  @media only screen and (min-width: 1800px) {
+    .table__head__width {
+      width: 1780px;
+    }
+  }
+  @media only screen and (min-width: 2120px) {
+    .table__head__width {
+      width: 2100px;
+    }
+  }
+}

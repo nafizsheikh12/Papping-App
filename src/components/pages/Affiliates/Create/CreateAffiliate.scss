@@ -1,0 +1,62 @@
+#CreateAffiliate {
+    .createFileBox {
+              border: 1px dashed ;
+              background-color: #F2F2F2;
+    }
+
+    .fileIcon {
+              color: #F2F2F2;
+              font-size: 50px;
+    }
+}
+
+
+/*-----------responsive csss ---------------------*/
+
+
+
+/*-----desktop laptop --------------  */
+@media (min-width: 1024px){
+
+}
+
+/*-----tablets and ipads --------------  */
+@media (min-width: 769px) and (max-width:1023px){
+    .CreateAffiliateForm {
+        width: 60%;
+    }
+}
+
+@media(max-width:899px){
+ 
+}
+
+/*-----mobile phone --------------  */
+@media (max-width:768px){
+    .CreateAffiliateForm {
+        width: 100%;
+    }
+}
+
+/*-----small phone --------------  */
+@media (max-width: 468px){
+    div#CreateAffiliate  h3 {
+        font-size: 28px;
+    }
+}
+
+
+/*----------extra small phone ------*/
+@media (max-width:600px){
+
+}
+
+@media (max-width:375px){
+  
+}
+
+
+@media (min-width:901px) and (max-width:1040px) {
+  
+
+}

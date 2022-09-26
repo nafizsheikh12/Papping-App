@@ -1,0 +1,63 @@
+#ManageAffiliate {
+
+
+  .table > :not(:first-child) {
+    border-top: 0px solid currentColor;
+  }
+  .table{
+    tr td{
+      padding-top:0;
+      padding-bottom:0;
+    }
+  }
+}
+
+
+
+
+
+
+
+/*-----desktop laptop --------------  */
+@media (min-width: 1024px){
+
+}
+
+/*-----tablets and ipads --------------  */
+@media (min-width: 769px) and (max-width:1023px){
+
+}
+
+@media(max-width:899px){
+  button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.apply__btn.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    width: 100% !important;
+    margin-top: -19px;
+  }
+}
+
+/*-----mobile phone --------------  */
+@media (max-width:768px){
+    
+}
+
+/*-----small phone --------------  */
+@media (max-width: 468px){
+   
+}
+
+
+/*----------extra small phone ------*/
+@media (max-width:600px){
+
+}
+
+@media (max-width:375px){
+  
+}
+
+
+@media (min-width:901px) and (max-width:1040px) {
+  .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.css-mhc70k-MuiGrid-root {
+    margin-left: -24px;
+}
+}

@@ -1,0 +1,7 @@
+#PendingReport {
+
+  .table > :not(:first-child) {
+    border-top: 0px solid currentColor;
+  }
+
+}

@@ -1,0 +1,181 @@
+#MangeFinance {
+  .manageFinaceHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    background: var(--background);
+
+    .duplicate__m_btn {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 40px;
+      text-transform: capitalize;
+      background: #7040ff;
+      flex: none;
+      order: 2;
+      flex-grow: 0;
+      outline: none;
+      border: none;
+      border: 1px solid #7040ff;
+      &:hover {
+        color: #7040ff;
+        background-color: transparent;
+        border: 1px solid #7040ff;
+      }
+    }
+    h2{
+      margin-top: 0 !important;
+    }
+  }
+  .table > :not(:first-child) {
+    border-top: 0px solid currentColor;
+  }
+  // .table {
+  //   &:first-child {
+  //     border: 0px;
+  //   }
+  //   tr {
+  //     margin-bottom: 50px;
+  //     th {
+  //       color: var(--A5__to__A5);
+  //       font-size: 14px;
+  //       font-weight: 400;
+  //       line-height: 74px;
+  //       letter-spacing: 0em;
+  //       text-align: left;
+  //       border: 0px;
+  //       text-align: center;
+  //       &:first-child {
+  //         padding-left: 20px;
+  //         text-align: left;
+  //       }
+  //       &:last-child {
+  //         text-align: right;
+  //         padding-right: 20px;
+  //       }
+  //     }
+  //     td {
+  //       color: var(--22__to__CC);
+  //       font-size: 16px;
+  //       font-weight: 500;
+  //       line-height: 74px;
+  //       letter-spacing: 0em;
+  //       text-align: left;
+  //       background-color: var(--background);
+  //       text-align: center;
+  //       &:first-child {
+  //         padding-left: 20px;
+  //         text-align: left;
+  //       }
+  //       &:last-child {
+  //         text-align: right;
+  //         padding-right: 20px;
+  //       }
+  //       .dropdown-toggle {
+  //         &::after {
+  //           display: none;
+  //         }
+  //         border: 0;
+  //       }
+  //       .dropdown-menu {
+  //         background: var(--ff__to__55);
+  //         padding: 8px;
+  //         &:last-child {
+  //           margin-bottom: 0px;
+  //         }
+  //         .dropdown-item {
+  //           font-size: 12px;
+  //           font-weight: 400;
+  //           line-height: 28px;
+  //           letter-spacing: 0em;
+  //           text-align: left;
+  //           text-transform: capitalize;
+  //           svg {
+  //             margin-right: 7px;
+  //           }
+  //           margin-bottom: 8px;
+  //         }
+  //         .aprove {
+  //           color: #03c895;
+  //           background: #03c8951a;
+  //         }
+  //         .pending {
+  //           color: #ff9800;
+  //           background: #ff98001a;
+  //         }
+  //         .edit {
+  //           color: #1a55fd;
+  //           background: #1a55fd21;
+  //         }
+  //         .delete {
+  //           color: #c90101;
+  //           background: #c9010121;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+}
+
+
+/*-----------responsive csss ---------------------*/
+
+
+
+/*-----desktop laptop --------------  */
+@media (min-width: 1024px){
+
+}
+
+/*-----tablets and ipads --------------  */
+@media (min-width: 769px) and (max-width:1023px){
+   
+}
+
+@media(max-width:899px){
+ 
+}
+
+/*-----mobile phone --------------  */
+@media (max-width:768px){
+   
+}
+
+
+/*---------- small phone ------*/
+@media (max-width:600px){
+  .manageFinaceHeader.pt-3.px-3.header button {
+    font-size: 14px !important;
+}
+
+.manageFinaceHeader.pt-3.px-3.header h2 {
+  font-size: 19px !important;
+}
+}
+
+
+/*----- extra small phone --------------  */
+@media (max-width: 470px){
+  .manageFinaceHeader.pt-3.px-3.header button {
+    font-size: 11px !important;
+}
+.manageFinaceHeader.pt-3.px-3.header h2 {
+  font-size: 14px !important;
+}
+}
+
+@media (max-width:375px){
+  .manageFinaceHeader.pt-3.px-3.header button {
+    font-size: 10px !important;
+}
+.manageFinaceHeader.pt-3.px-3.header h2 {
+  font-size: 12px !important;
+}
+}
+
+
+@media (min-width:901px) and (max-width:1040px) {
+  
+
+}

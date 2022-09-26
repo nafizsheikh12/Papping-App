@@ -1,0 +1,68 @@
+.custom-tooltip {
+    width: 220px !important;
+    height: 260px !important;
+    background: var(--side_hover);
+    padding: 19px;
+    /* box-shadow: 9px 8px 7px rgba(119, 119, 119, 0.2); */
+    border-radius: 10px;
+}
+
+
+.custom-tooltip-header {
+    border-bottom: 2px solid var(--77__to__D2);
+    padding-bottom: 8px;
+}
+
+.custom-tooltip-ul ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0px;
+}
+
+.custom-tooltip-ul {
+    margin-top: 11px;
+}
+
+.custom-tooltip-click p {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: var(--click_color);
+}
+
+
+.custom-tooltip-footer p {
+    font-family: 'Poppins' sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: var(--click_color);
+}
+
+.custom-tooltip-header p {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: var(--click_color);
+}
+
+.custom-tooltip-click {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.custom-tooltip-click img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+}

@@ -1,0 +1,248 @@
+// table css
+.my__table {
+  //min-width: 400px;
+  background-color: var(--background);
+  &:first-child {
+    border: 0px;
+  }
+  thead {
+    tr {
+      background-color: var(--th_bg);
+      box-shadow: 3px 8px 15px 0px rgba(0, 0, 0, 0);
+    }
+  }
+  tr {
+    // margin-bottom: 50px;
+    th {
+      color: var(--A5__to__A5);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 74px;
+      letter-spacing: 0em;
+      text-align: left;
+      text-transform: capitalize;
+      border: 0px;
+      text-align: center;
+      &:first-child {
+        padding-left: 20px;
+        text-align: left;
+      }
+      &:last-child {
+        text-align: right;
+        padding-right: 20px;
+      }
+    }
+    td {
+      color: var(--22__to__CC);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 74px;
+      letter-spacing: 0em;
+      text-align: left;
+      border-bottom: 0px solid var(--secondBackground);
+      text-align: center;
+      &:first-child {
+        padding-left: 20px;
+        text-align: left;
+      }
+      img {
+        padding-right: 10px;
+      }
+      .calender {
+        height: 18px;
+        margin-right: 7px;
+        path {
+          fill: #1a55fd;
+        }
+      }
+      &:last-child {
+        text-align: right;
+        padding-right: 20px;
+      }
+      .dropdown-toggle {
+        &::after {
+          display: none;
+        }
+        border: 0;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: var(--22__to__CC);
+        background-color: var(--background);
+        &:hover {
+          background-color: var(--background);
+        }
+        &:focus {
+          border: none;
+          background-color: var(--background);
+        }
+      }
+      .dropdown-menu {
+        background: var(--ff__to__55);
+        padding: 0px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+        .dropdown-item {
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 28px;
+          letter-spacing: 0em;
+          text-align: left;
+          text-transform: capitalize;
+          color: var(--22__to__CC);
+          svg {
+            path {
+              fill: var(--22__to__CC);
+            }
+          }
+          margin-bottom: 8px;
+          &:hover {
+            color: #1a55fd;
+            background: #1a55fd21;
+            transition: all linear 0.3s;
+            svg {
+              path {
+                fill: #1a55fd;
+              }
+            }
+          }
+        }
+      }
+    }
+    svg {
+      margin-right: 7px;
+    }
+   
+    .actionButton {
+      li {
+        display: inline-block;
+        button {
+          line-height: 40px;
+          padding: 0 20px;
+          margin: 0 10px;
+          border: 0px;
+        }
+      }
+    }
+  }
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+td {
+  border: solid 1px #000;
+  border-style: none solid solid none;
+  padding: 10px;
+}
+
+.MainForm {
+  width: 50%;
+  margin: 0 auto;
+  background-color: var(--background) !important;
+  padding: 30px 27px;
+}
+.formStyle {
+  background-color: var(--background) !important;
+  padding: 30px 27px;
+}
+#form {
+  label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--22__to__CC);
+  }
+  .css-fiza2l-MuiPaper-root-MuiCard-root {
+    background-color: var(--background);
+  }
+  .jodit-toolbar__box:not(:empty) {
+    background-color: var(--background);
+    color: var(--22__to__CC);
+    border-color: var(--background);
+    svg {
+      path {
+        fill: var(--22__to__CC);
+      }
+    }
+  }
+  .jodit .jodit-workplace .jodit-wysiwyg,
+  .jodit .jodit-workplace .jodit-wysiwyg_iframe,
+  .jodit-container .jodit-workplace .jodit-wysiwyg,
+  .jodit-container .jodit-workplace .jodit-wysiwyg_iframe {
+    font-size: 16px;
+    p {
+      color: var(--22__to__CC);
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  .jodit-container:not(.jodit_inline) .jodit-workplace {
+    background-color: var(--secondBackground);
+    padding: 20px 10px;
+  }
+  input:disabled {
+    cursor: default;
+    background-color: -internal-light-dark(
+      rgba(239, 239, 239, 0.3),
+      rgba(59, 59, 59, 0.3)
+    );
+    color: -internal-light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+    border-color: rgba(118, 118, 118, 0.3);
+  }
+  h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--22__to__CC);
+  }
+  input {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a5a5a5;
+    background-color: var(--ff__to__30);
+    border-radius: 5px;
+    &::internal-autofill-selected {
+      background-color: red;
+    }
+  }
+  .MuiInputBase-input {
+    background-color: var(--secondBackground);
+    color: var(--22__to__CC);
+  }
+}
+.img__fild {
+  background-color: var(--secondBackground);
+  margin-bottom: 16px;
+  margin-top: 15px;
+  border-radius: 10px;
+  .MuiBox-root {
+    background-color: var(--secondBackground);
+  }
+  .css-19kzrtu {
+    padding: 35px 24px;
+  }
+}
+button {
+  margin-top: 16px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--background) !important;
+}
+
+

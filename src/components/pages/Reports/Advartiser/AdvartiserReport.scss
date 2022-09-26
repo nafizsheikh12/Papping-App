@@ -1,0 +1,189 @@
+#AdvartiserReport{
+    // .ManageForm{
+    //     form{
+    //        .mangeCard{
+    //         background-color: var(--background);
+    //         padding: 15px;
+    //         border-radius: 15px;
+    //         margin-bottom: 30px;
+    //             h5{
+    //                 font-size: 18px;
+    //                 font-weight: 600;
+    //                 line-height: 27px;
+    //                 letter-spacing: 0em;
+    //                 text-align: left;
+    //                 color: var(--22__to__CC);
+    //                 margin-bottom: 15px;
+    //                 text-transform: capitalize;
+    //             }
+    //             .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    //                 color: var(--77__to__A5); 
+    //             }
+    //             .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    //                 color: var(--77__to__A5);
+    //             }
+    //             .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    //                 border-radius: 15px;
+    //                 border: 1px solid var(--77__to__A5);
+    //                 .css-1ftyaf0{
+    //                         color: var(--77__to__A5);  
+                        
+    //                 }
+    //             }
+    //             input{
+    //                 font-size: 16px;
+    //                 font-weight: 500;
+    //                 line-height: 24px;
+    //                 letter-spacing: 0em;
+    //                 text-align: left;
+    //                 padding: 13px 20px;
+    //                 height: auto;
+    //                 background-color: var(--77__to__30);
+    //                 border-radius: 15px;
+    //                 border: 1px solid var(--77__to__A5);
+    //                 &::placeholder{
+                        
+    //                     color: var(--77__to__A5);
+    //                 }
+    //                 color: var(--77__to__A5);
+    //             }
+    //             .button__wrapper{
+    //                 text-align: right;
+    //                 button{
+    //                     padding: 12px 95px;
+    //                     font-size: 18px;
+    //                     font-weight: 500;
+    //                     line-height: 27px;
+    //                     letter-spacing: 0em;
+    //                     text-align: left;
+    //                     background: #7040FF;
+    //                     border-radius: 10px;
+    //                     color: white;
+    //                 }
+    //             }
+               
+    //         }
+    //     }
+       
+    // }
+  
+
+//     .AdvartiserReportTitle {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding-bottom: 20px;
+//     background-color: var(--background);
+
+//     h2 {
+//       margin-left: 20px;
+//       margin-top: 11px;
+//       margin-bottom: -9px;
+//     }
+//   }
+    .table>:not(:first-child) {
+        border-top: 0px solid currentColor;
+    }
+    // .table{
+    //     &:first-child{
+    //         border: 0px;
+
+    //     }
+    //     tr{
+    //         th{
+    //             color: var(--A5__to__A5);
+    //             font-size: 14px;
+    //             font-weight: 400;
+    //             // line-height: 74px;
+    //             letter-spacing: 0em;
+    //             text-align: left;
+    //             border: 0px;
+    //             text-align: center;
+    //             &:first-child{
+    //                 padding-left: 20px;
+    //                 text-align: left;
+    //             }
+    //             &:last-child{
+    //                 text-align: right;
+    //                 padding-right: 20px;
+    //             }
+    //         }
+    //         td{
+    //             color: var(--22__to__CC);
+    //             font-size: 15px;
+    //             font-weight: 500;
+    //             line-height: 74px;
+    //             letter-spacing: 0em;
+    //             text-align: left;
+    //             background-color: var(--background);
+    //             // border-bottom: 15px solid var(--secondBackground);
+    //             text-align: center;
+    //             img{
+    //                 border-radius: 50%;
+    //                 height: 35px;
+    //                 width: 35px;
+    //                 margin-right: 10px;
+    //             }
+    //             svg{
+    //                 height: 18px;
+    //                 margin-right: 7px;
+    //             }
+    //             &:first-child{
+    //                 padding-left: 20px;
+    //                 text-align: left;
+    //             }
+    //             &:last-child{
+    //                 text-align: right;
+    //                 padding-right: 20px;
+    //             }
+    //             .dropdown-toggle{
+    //                 &::after{
+    //                     display: none;
+    //                 }
+    //                 border: 0;
+    //             }
+    //             .dropdown-menu{
+    //                 background: var(--ff__to__55);
+    //                 padding: 8px;
+    //                 &:last-child{
+    //                     margin-bottom: 0px;
+    //                 }
+    //                 .dropdown-item{
+    //                      font-size: 12px;
+    //                      font-weight: 400;
+    //                      line-height: 28px;
+    //                      letter-spacing: 0em;
+    //                      text-align: left;
+    //                     text-transform: capitalize;
+    //                     svg{
+    //                         margin-right: 7px;
+    //                     }
+    //                     margin-bottom: 8px;
+
+    //                 }
+    //                 .aprove{
+    //                     path {
+    //                         fill:  #03C895;
+    //                       }
+    //                     color: #03C895;
+    //                     background: #03C8951A;
+    //                 }
+    //                 .pending{
+    //                     color: #FF9800;
+    //                     background: #FF98001A;
+    //                 }
+    //                 .edit{
+    //                     color: #1A55FD;
+    //                     background: #1A55FD21;
+
+    //                 }
+    //                 .delete{
+    //                     color:  #C90101;;
+    //                     background: #C9010121;
+
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+}

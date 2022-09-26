@@ -1,0 +1,33 @@
+#CreateOffer {
+  #datepicker {
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    &::placeholder{
+        padding-left: 15px;
+    }
+}
+
+  }
+
+  .css-bhp9pd-MuiPaper-root-MuiCard-root {
+    background-color: var(--background);
+  }
+  .createFileBox {
+    border: 1px dashed;
+    background-color: var(--background);
+  }
+
+  .fileIcon {
+    color: #f2f2f2;
+    font-size: 50px;
+  }
+
+.css-fiza2l-MuiPaper-root-MuiCard-root {
+  background-color: var(--background);
+}
+
+
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+  width: 100%;
+}

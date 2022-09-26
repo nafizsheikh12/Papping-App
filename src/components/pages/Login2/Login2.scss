@@ -1,0 +1,108 @@
+.login__page{
+  background-color: var(--secondBackground);
+  min-height: 100vh;
+  display: grid;
+}
+#Login2 {
+  width: 40%;
+  margin: 0 auto;
+  width: 40%;
+  margin: 100px auto;
+  padding: 103px 15px;
+background: var(--background);
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    align-items: center;
+  }
+}
+
+#Login2Header {
+  header {
+    margin-right: 0px;
+    padding: 30px 100px;
+    background: var(--background);
+    ul {
+      text-align: right;
+      li {
+        display: inline-block;
+        margin-left: 50px;
+        .login__btn {
+          color: black;
+          font-size: 18px;
+          padding: 13px 38px;
+          &:hover {
+            border-radius: 105px;
+            border: 1px solid;
+          }
+        }
+        .m_btn {
+          padding: 16px 32px;
+          border-radius: 100px;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 18px;
+          letter-spacing: -0.02em;
+          text-align: left;
+          color: white;
+          &:hover {
+            color: #7040ff !important;
+          }
+        }
+      }
+    }
+  }
+  
+ 
+}
+.footer{
+  background: var(--background);
+}
+
+
+/*-----desktop laptop --------------  */
+@media (min-width: 1024px){
+ 
+}
+
+@media (min-width:901px) and (max-width:1040px) {
+  
+}
+
+/*-----tablets and ipads --------------  */
+@media (min-width: 769px) and (max-width:1023px){
+  div#Login2 {
+    width: 90%;
+}
+}
+
+@media(max-width:899px){
+ 
+}
+
+/*-----mobile phone --------------  */
+@media (max-width:768px){
+  div#Login2 {
+    width: 90%;
+}
+}
+
+/*----------extra small phone ------*/
+@media (max-width:600px){
+
+}
+
+/*-----small phone --------------  */
+@media (max-width: 468px){
+ 
+}
+
+
+
+
+@media (max-width:375px){
+
+}
+

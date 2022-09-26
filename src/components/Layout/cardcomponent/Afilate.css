@@ -1,0 +1,101 @@
+.MainAffilateCard {
+    height: 284px;
+    width: 229px;
+    margin: 12px 5px;
+    overflow: hidden;
+    left: 15px;
+    background: var(--ff__to__55);
+/* LIght/Brand */
+    border: 0.5px solid var(--side_card_component);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    top: 898.001953125px;
+    border-radius: 10px;
+}
+
+.MainAffilateCardtomimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.MainAffilateCardHeader {
+    display: flex;
+    background: #151F23;
+    padding: 9px 10px;
+    border-bottom: 0.5px solid #7040FF;
+    border-radius: 10px 10px 0px 0px;
+    gap: 5px;
+    align-items: center;
+}
+
+.MainAffilateCardHeader img {
+    width: 17px;
+    height: 17px;
+}
+
+.MainAffilateCardHeader h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: #fff;
+}
+
+.MainAffilateCardBody {padding: 0px 11px;}
+
+
+.MainAffilateCardtomimg {
+    margin-top: 7px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.MainAffilateCardTopContent h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    gap: 5px;
+    line-height: 100%;
+    color: var(--22__to__FF);
+    display: flex;
+    padding-bottom: 3px;
+}
+
+.MainAffilateCardTopContent span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    font-size: 12px;
+    color: #7D8A91;
+}
+
+.MainAffilateCardTopContent {
+    border-bottom: 0.5px solid #19221E;
+    padding-bottom: 2px;
+}
+
+.MainAffilateCardBottomContent span {
+    align-items: center;
+    gap: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 6px;
+    line-height: 100%;
+    color: #A5A5A5;
+    display: flex;
+}
+
+.MainAffilateCardBottomContent h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--22__to__FF);
+    margin: 5px 0px;
+}

@@ -1,0 +1,217 @@
+#Registe{
+    header{
+       margin-right: 0px; 
+       padding: 30px 100px;
+       background-color: var(--background);
+       ul{
+        text-align: right;
+        li{
+            display: inline-block;
+            margin-left: 50px;
+            .m_btn{
+                padding: 16px 32px;
+                border-radius: 100px;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                color: var( --77__to__A5);
+                :hover{
+                 color: white !important;
+                }
+            }
+            .btn{
+                :hover{
+                    color:white;
+                }
+            }
+            .hover:hover{
+                color:white;
+            }
+
+
+        }
+       }
+    }
+    .loginContent{
+        background-color: var(--secondBackground);
+        padding: 160px;
+        padding-top:65px;
+        padding-bottom: 148px;
+        .register_header{
+            text-align: center;
+            h2{
+                text-align: center;
+                padding-bottom: 15px;
+            }
+            p{
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 29px;
+                letter-spacing: 0em;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+        }
+        .css-bhp9pd-MuiPaper-root-MuiCard-root {
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+        .MainForm {
+            .css-bhp9pd-MuiPaper-root-MuiCard-root {
+                 box-shadow: 0px 0px 0px -0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); 
+            }
+            padding-top: 0;
+            padding-bottom: 0;
+            h2{
+                font-size: 45px;
+                font-weight: 600;
+                line-height: 45px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                color:#7040FF;
+                padding-bottom: 20px;
+            }
+            p{
+                padding-bottom: 42px;
+            }
+            .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                border-color: rgba(0, 0, 0, 0);
+            }
+            input{
+                color: var(--77__to__CC);   
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 18px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                background-color: var(--secondBackground);
+                padding-top: 20px;
+                padding-bottom: 20px;
+                ::placeholder{
+                        color: var(--77__to__CC);   
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 18px;
+                        letter-spacing: -0.02em;
+                        text-align: left;
+
+                    }
+
+            }
+            .css-mhc70k-MuiGrid-root>.MuiGrid-item {
+                padding-top: 25px;
+            }
+            label{
+                color: var(--77__to__CC);   
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 18px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                padding-top: 7px;
+                padding-left: 10px;
+            }
+            .logn_btn{
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: -0.02em;
+                display:flex;
+                width: 100%;
+                padding: 23px 32px;
+                justify-content: space-between;
+                background-color: #7040FF;
+                border: 0;
+                border-radius: 15px;
+                margin-top: -15px;
+                margin-bottom: 10px;
+                span{
+                    color: white;
+                }
+                svg{
+                    path{
+                        fill:white;;
+                    }
+                }
+            }
+            a{
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 14px;
+                color:#7040FF; 
+                text-decoration: underline;  
+                display: block;   
+                text-align: left; 
+                padding-bottom: 15px;               
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: var(--77__to__CC);
+                    a{
+                        font-weight: 500;
+                        line-height: 14px;
+                        color:#7040FF; 
+                        text-decoration: underline;   
+                        display: inline-block;   
+                        text-align: left;                
+                    }
+            }
+            
+
+            width: 80%;
+        }
+    }
+    footer {
+       text-align: center;
+   
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: var(--font_color);
+            padding: 20px 0px;
+        }
+    }
+}
+
+
+@media(min-width:320px) and (max-width:768px){
+    #Register{
+        header{
+            img{
+                width: 85%;
+            }
+            ul{
+                li{
+                    margin-left: 10px;
+                    .m_btn{
+                        padding: 10px 23px;
+                    }
+                }
+            }
+        }
+       .loginContent{
+        height: auto;
+        padding:25px 50px;
+        img{
+            width: 100%;
+        }
+        .MainForm{
+            width: 100%;
+            h2{
+                padding-top: 25px;
+            }
+        }
+       }
+       footer{
+        height: auto;
+       }
+    }
+}

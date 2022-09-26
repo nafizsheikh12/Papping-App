@@ -1,0 +1,45 @@
+#ReportTableData {
+  .reverse__Btn {
+    background-color: rgba(26, 85, 253, 0.13);
+    padding: 10px 15px;
+    gap: 3px;
+    margin-right: 8px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+
+    .reverse__icon {
+      fill: var(--edit_btn_color) !important;
+      height: 25px;
+      width: 25px;
+    }
+    p {
+      color: var(--edit_btn_color);
+      text-transform: capitalize;
+    }
+    &:hover {
+      scale: 0.9;
+    }
+  }
+  .delete__Btn {
+    background: rgba(201, 1, 1, 0.13);
+    padding: 10px 15px;
+    gap: 3px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    .delete-icon {
+      fill: #c90101!important;
+      height: 25px;
+      width: 25px;
+      path {
+        fill:#c90101 !important;
+      }
+    }
+    p {
+      color: var(--delete_btn_color);
+      text-transform: capitalize;
+    }
+    &:hover {
+      scale: 0.9;
+    }
+  }
+}

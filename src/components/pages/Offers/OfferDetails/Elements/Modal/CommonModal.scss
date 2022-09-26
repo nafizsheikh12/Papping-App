@@ -1,0 +1,21 @@
+#CommonModal {
+  .duplicate__m_btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: capitalize;
+    background: #7040ff;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    outline: none;
+    border: none;
+    border: 1px solid #7040ff;
+    /* padding: 0px 10%; */
+    &:hover {
+      color: #7040ff;
+      background-color: transparent;
+      border: 1px solid #7040ff;
+    }
+  }
+}

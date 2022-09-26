@@ -1,0 +1,28 @@
+#datepicker {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  
+ 
+}
+.react-datepicker__month {
+  margin: 0.4rem;
+  text-align: center;
+  background: var(--secondBackground);
+}
+.react-datepicker__header {
+  background-color: var(--background);
+  border-bottom: 1px solid #aeaeae;
+  select{
+    background: var(--secondBackground);
+  }
+}
+.react-datepicker {
+  background: var(--secondBackground);
+}
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  color: var(--22__to__CC);
+}
+
+@import "rsuite/dist/rsuite.css";

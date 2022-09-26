@@ -1,0 +1,335 @@
+#Settings {
+  .setting__url {
+    color: var(--22__to__CC);
+    &:hover {
+      color: var(--EB__to__F5);
+    }
+  }
+  // General page
+  .Settings__General {
+    background-color: var(--background);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .general__form {
+      width: 100%;
+      padding: 30px;
+
+      label {
+        color: var(--22__to__CC);
+        font-size: 18px;
+      }
+
+      .form__input {
+        margin-bottom: 20px;
+
+        .MuiFormControl-root {
+          background-color: var(--secondBackground);
+          color: var(--22__to__CC);
+        }
+
+        .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+          border-color: var(--22__to__CC);
+        }
+      }
+    }
+  }
+  // Appearance Page
+  .Settings__Appearance {
+    background-color: var(--background);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .appearance__form {
+      width: 100%;
+      padding: 30px;
+
+      img {
+        width: 146.21px;
+        margin: 20px 0;
+      }
+
+      label {
+        color: var(--22__to__CC);
+        font-size: 18px;
+      }
+      input[type="file"] {
+        background: var(--secondBackground);
+        color: var(--22__to__CC);
+      }
+      .form__input {
+        .form-control:focus {
+          box-shadow: none;
+          outline: none;
+          border-color: #c5aeae;
+        }
+      }
+    }
+  }
+  // Own PostBack page
+  .Settings__OwnPostBack {
+    background-color: var(--background);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .OwnPostBack__form {
+      width: 100%;
+      padding: 30px;
+      label {
+        color: var(--22__to__CC);
+        font-size: 18px;
+      }
+      .form__input {
+        margin-bottom: 20px;
+        .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+          color: var(--22__to__CC);
+        }
+        .MuiFormControl-root {
+          background-color: var(--secondBackground);
+          color: var(--22__to__CC);
+        }
+      }
+    }
+  }
+  // Smtp Setup
+  .Settings__Smtp {
+    background-color: var(--background);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .Smtp__form {
+      width: 100%;
+      padding: 30px;
+      label {
+        color: var(--22__to__CC);
+        font-size: 18px;
+      }
+      .form__input {
+        margin-bottom: 20px;
+        .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+          color: var(--22__to__CC);
+        }
+        .MuiFormControl-root {
+          background-color: var(--secondBackground);
+          color: var(--22__to__CC);
+        }
+      }
+    }
+  }
+  .Settings__SignUpQuestion {
+    background-color: var(--secondBackground);
+
+    .SignUpQuestion__modal {
+      .modal-dialog {
+        .modal-content {
+          margin-top: 121px !important;
+        }
+      }
+    }
+
+    .SignUpQuestion__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+
+      .SignUpQuestion__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        border: 1px solid #7040ff;
+        border-radius: 8px;
+
+        // .btn__icon {
+        //   fill: #7040ff !important;
+        // }
+        // p {
+        //   color: #7040ff !important;
+        // }
+      }
+    }
+
+    // Additional signup question
+    .SignUpQuestionTable {
+      margin-top: 20px;
+      background-color: var(--secondBackground);
+      box-shadow: none;
+      color: var(--background);
+
+      .table__row {
+        th,
+        td {
+          color: var(--22__to__CC);
+        }
+      }
+
+
+
+        .reverse__Btn {
+        background-color: rgba(26, 85, 253, 0.13);
+        padding: 10px 15px;
+        gap: 3px;
+        margin-right: 8px;
+        box-shadow: none;
+        transition: all 0.3s ease;
+
+        .reverse__icon {
+          fill: var(--edit_btn_color) !important;
+          height: 25px;
+          width: 25px;
+        }
+        p {
+          color: var(--edit_btn_color);
+          text-transform: capitalize;
+        }
+        &:hover {
+          scale: 0.9;
+        }
+      }
+      .delete__Btn {
+        background: rgba(201, 1, 1, 0.13);
+        padding: 10px 15px;
+        gap: 3px;
+        box-shadow: none;
+        transition: all 0.3s ease;
+        .delete-icon {
+          fill: #c90101 !important;
+          height: 25px;
+          width: 25px;
+          path {
+            fill: #c90101 !important;
+          }
+        }
+        p {
+          color: var(--delete_btn_color);
+          text-transform: capitalize;
+        }
+        &:hover {
+          scale: 0.9;
+        }
+      }
+
+      
+      // .edit__Btn {
+      //   background-color: rgba(26, 85, 253, 0.13);
+      //   padding: 5px 10px;
+      //   gap: 3px;
+      //   .edit-icon {
+      //     fill: #1a55fd !important;
+      //   }
+      //   p {
+      //     color: #1a55fd;
+      //     text-transform: capitalize;
+      //   }
+      // }
+      // .delete__Btn {
+      //   background: rgba(201, 1, 1, 0.13);
+      //   padding: 5px 10px;
+      //   gap: 3px;
+      //   .delete-icon {
+      //     fill: #c90101 !important;
+      //   }
+      //   p {
+      //     color: #c90101;
+      //     text-transform: capitalize;
+      //   }
+      // }
+      .table__header {
+        background: var(--secondBackground);
+        .MuiTableCell-head {
+          color: var(--A5__to__CC);
+        }
+      }
+      .table__row {
+        background: var(--background);
+      }
+    }
+  }
+}
+
+ul.setting-ui-li li {
+  padding: 10px 5px;
+}
+
+
+
+
+/*-----desktop laptop --------------  */
+@media (min-width: 1024px){
+ 
+}
+
+@media (min-width:901px) and (max-width:1040px) {
+  
+}
+
+/*-----tablets and ipads --------------  */
+@media (min-width: 769px) and (max-width:1023px){
+ 
+}
+
+@media(max-width:899px){
+ 
+}
+
+/*-----mobile phone --------------  */
+@media (max-width:768px){
+  
+}
+
+/*----------extra small phone ------*/
+@media (max-width:600px){
+
+}
+
+/*-----small phone --------------  */
+@media (max-width: 468px){
+ 
+}
+
+
+
+
+@media (max-width:375px){
+
+}
+
+

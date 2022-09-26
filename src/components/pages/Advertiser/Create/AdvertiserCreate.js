@@ -123,8 +123,8 @@ const AdvertiserCreate = () => {
         </Typography>
         <Grid container spacing={4}>
           <Grid item xs={12}>
-            <Card style={{ maxWidth: "50%", margin: "0 auto" }}>
-              <CardContent className="cardtc">
+            <Card style={{ maxWidth: "50%", margin: "0 auto" }} className="cssmuicard">
+              <CardContent className="">
                 <form onSubmit={handleSubmit}>
                   {showError(error, errorMsg)}
                   {showLoading(loading)}

@@ -124,7 +124,7 @@ const AdvertiserCreate = () => {
         <Grid container spacing={4}>
           <Grid item xs={12}>
             <Card style={{ maxWidth: "50%", margin: "0 auto" }}>
-              <CardContent>
+              <CardContent className="cardtc">
                 <form onSubmit={handleSubmit}>
                   {showError(error, errorMsg)}
                   {showLoading(loading)}

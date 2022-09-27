@@ -20,11 +20,13 @@ import {
   CardContent,
   Grid,
   TextField,
+  FormLabel
 } from "@mui/material";
 import { deleteOffer, getOffer } from "../../../../api/Offer/Offer";
 import { userInfo } from "../../../../utils/auth";
 import { useHistory,Link } from "react-router-dom";
 import FormSliderTop from "../../../../shared/SharedComponents/FormSlider/FormSliderTop";
+
 
 const ManageAffiliate = () => {
   const [affiliates, setAffiliate] = useState([]);
@@ -149,7 +151,7 @@ const ManageAffiliate = () => {
                       <Grid item xs={12} lg={2} md={2}>
                         <div className="button__wrapper">
                           <h5 style={{ opacity: "0" }}>Email</h5>
-                          <Button className="apply__btn" variant="contained">
+                          <Button className="apply__btn allofferBtn" variant="contained">
                             Apply
                           </Button>
                         </div>

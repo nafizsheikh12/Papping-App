@@ -262,9 +262,9 @@ const CreateOffer = () => {
           {showSuccess(success, errorMsg)}
           <Grid container spacing={4}>
             <Grid item xs={12} lg={6} md={6}>
-              <Card sx={{ padding: 1 }}>
+              <Card sx={{ padding: 1 }} className="createOfeerbgset">
                 <CardContent>
-                  <Grid container spacing={2}>
+                  <Grid container spacing={2}  className="custommhc70k">
                     {data.map((it) => (
                       <>
                         {it.type === "input" && (
@@ -351,9 +351,9 @@ const CreateOffer = () => {
               </Card>
             </Grid>
             <Grid item xs={12} md={6} lg={6}>
-              <Card sx={{ padding: 1 }}>
+              <Card sx={{ padding: 1 }} className="createOfeerbgset">
                 <CardContent>
-                  <Grid container spacing={2}>
+                  <Grid container spacing={2}  className="custommhc70k">
                     {rightData.map((rIT) => (
                       <>
                         {rIT.type === "input" && (

@@ -10,7 +10,7 @@
         color: var( --22__to__CC);
 
     }
-    .css-46bh2p-MuiCardContent-root{
+    .css-46bh2pCustom{
         padding: 30px;
         border-radius: 10px;
     }
@@ -30,7 +30,7 @@
             .MuiFormLabel-root{
                 color: var(--22__to__CC);
                 text-transform: capitalize;
-                    font-size: 14px;
+                    font-size: 16px;
                     font-weight: 500;
                     line-height: 21px;
                     letter-spacing: 0em;
@@ -39,8 +39,8 @@
 
             }
             .MuiInputLabel-formControl{
-                border-color:    var(--A5__to__CC) !important;
-                font-size: 12px;
+                border-color:var(--A5__to__CC) !important;
+                font-size: 16px;
                 font-weight: 400;
                 line-height: 18px;
                 letter-spacing: 0em;
@@ -54,7 +54,7 @@
             input{
               color:var(--A5__to__CC);
                 border-radius: 4px;
-                font-size: 12px;
+                font-size: 16px;
                 font-weight: 400;
                 line-height: 18px;
                 letter-spacing: 0em;
@@ -82,7 +82,7 @@
 
 /*-----tablets and ipads --------------  */
 @media (min-width: 769px) and (max-width:1023px){
-    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    .cssmuicard {
         max-width: 100% !important;
     }
 }
@@ -90,7 +90,7 @@
 
 /*-----mobile phone --------------  */
 @media (max-width:768px){
-    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    .cssmuicard {
         max-width: 100% !important;
     }
 }

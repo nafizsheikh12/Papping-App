@@ -54,6 +54,7 @@ const Layout = ({ title, children,className,subActive,activeNum }) => {
 
   const toggleDrawer = () => {
     setOpen(!open);
+    console.log(open)
   };
   
 
@@ -154,7 +155,7 @@ const Layout = ({ title, children,className,subActive,activeNum }) => {
             </Toolbar>
           </AppBar>
 
-          <Drawer variant="permanent" className="side__bar" open={open}>
+          <Drawer variant="permanent" className={`side__bar ${open ? "":"openSidebar"}`} open={open}>
             <Toolbar
               sx={{
                 display: "flex",

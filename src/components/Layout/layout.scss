@@ -244,7 +244,7 @@
     }
     
 }
-.css-aq1gdx-MuiDrawer-docked .MuiDrawer-paper {
+.openSidebar .MuiDrawer-paper {
    width: 0!important;
 }
 @media (min-width:320px)  and (max-width:900px){
@@ -254,8 +254,8 @@
     .mobile-none{
         display: none !important;
     }
-    .css-aq1gdx-MuiDrawer-docked .MuiDrawer-paper {
-        width: 0px;
+    .openSidebar .MuiDrawer-paper {
+        width: 0px !important;
     }
     .MuiBox-root {
         .side__bar{

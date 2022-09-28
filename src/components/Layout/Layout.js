@@ -17,13 +17,13 @@ import RotateRightIcon from '@mui/icons-material/RotateRight';
 
 import {
   Box, Container, CssBaseline, Divider, IconButton, List,
-  Toolbar, Typography
+  Toolbar, Typography,Tooltip,Avatar,MenuItem,Menu
 } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import * as React from "react";
 import { useEffect,useState } from "react";
 import Accordion from 'react-bootstrap/Accordion';
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import useLocalStorage from "use-local-storage";
 import { NotificationIcon } from "../../assets/Icons";
 import ProfilePhoto from '../../assets/profile.png';
@@ -35,10 +35,10 @@ import { AppBar, Drawer } from "./utils/Elements";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import MenuIcon from "@mui/icons-material/Menu";
 import { FaAlignLeft } from 'react-icons/fa';
-import { userInfo } from "../../utils/auth";
+import { signout, userInfo } from "../../utils/auth";
 import { getUser } from "../../api/Auth/apiAuth";
 import { useDispatch,useSelector } from "react-redux";
-
+import { useHistory } from "react-router-dom";
 
 //component
 import AfilateCard from './cardcomponent/AfilateCard'
@@ -48,15 +48,42 @@ const mdTheme = createTheme();
 const Layout = ({ title, children,className,subActive,activeNum }) => {
   // sidebar toggler
   const [open, setOpen] = React.useState(true);
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [UserData, setuserData] = useState("");
   const dispatch = useDispatch();
   const { userrole,user} = useSelector((state) => state.users);
+  const history = useHistory();
 
   const toggleDrawer = () => {
     setOpen(!open);
     console.log(open)
   };
   
+
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
+  const handleOpenUserMenu = (event) => {
+    setAnchorElUser(event.currentTarget);
+  };
+
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
+
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  };
+
+  const Logout = () => {
+    history.push("/login");
+    signout()
+   
+    
+    console.log(history)
+    
+  }
 
   useEffect(() => {
     document.title = title;
@@ -149,8 +176,35 @@ const Layout = ({ title, children,className,subActive,activeNum }) => {
                 <span className="count">2</span>
               </div>
               <div className="profile">
-                  <img src={ProfilePhoto} alt={ProfilePhoto} />
-                  <span>administration</span>
+                  <Tooltip title="Open settings">
+                     <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+                      <Avatar alt="Remy Sharp" src={ProfilePhoto} />
+                     </IconButton>
+                  </Tooltip>
+                  <span>Administration</span>
+                  <Menu
+                      sx={{ mt: '45px' }}
+                      id="menu-appbar"
+                      anchorEl={anchorElUser}
+                      anchorOrigin={{
+                        vertical: 'top',
+                        horizontal: 'right',
+                      }}
+                      keepMounted
+                      transformOrigin={{
+                        vertical: 'top',
+                        horizontal: 'right',
+                      }}
+                      open={Boolean(anchorElUser)}
+                      onClose={handleCloseUserMenu}
+                  >
+              
+                    <MenuItem  onClick={handleCloseUserMenu}>
+                      <Typography textAlign="center" onClick={Logout}>Logout</Typography>
+                   </MenuItem>
+           
+                </Menu>
+                 
               </div>
             </Toolbar>
           </AppBar>

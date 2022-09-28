@@ -101,15 +101,16 @@ import ManagerAffiliateCreate from './managerPages/Affiliates/Create/CreateAffil
 import ManagerAffiliateManage from './managerPages/Affiliates/Manage/ManageAffiliate';
 import ManagerAccount from './managerPages/Account/Account';
 import ManagerNotification from './managerPages/Notifications/Notifications';
+import { isAuthenticated } from '../utils/auth';
 
 const Main = (props) => {
+  console.log(isAuthenticated())
   return (
     <div>
       <Switch>
         {/* <Route path="/login" exact component={Login} /> */}
        
-      
-        <Route path="/f" exact component={Login2} />
+     
 
         {/*affilate dashboard route */}
   

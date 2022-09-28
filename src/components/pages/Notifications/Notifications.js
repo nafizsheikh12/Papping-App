@@ -27,7 +27,7 @@ const Notifications = () => {
             
           </Grid>
           <Grid item lg={8} md={8} xs={12}>
-            <Card sx={{ p: 4 }}>
+            <Card sx={{ p: 4 }} className="custom_xt7fpq">
               <form id="form">
                 <Grid container spacing={3}>
                   <Grid item xs={12}>
@@ -37,7 +37,7 @@ const Notifications = () => {
                     <Typography variant="body2">Message</Typography>
                   </Grid>
 
-                  <Grid item xs={12}>
+                  <Grid item xs={12} className="css8ewp">
                     <TextField
                       label="Message"
                       multiline

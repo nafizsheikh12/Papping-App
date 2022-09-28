@@ -14,18 +14,25 @@ const  AdminRoute = ({ children, ...rest }) => {
     
       <Route
         {...rest}
-        render={({ location }) =>
-        isAuthenticated() && userrole === 'Admin' ? (
-            children
-          ) : (
-            <Redirect
+        render={({ location }) => {
+        if(isAuthenticated() === false) {
+            return <Redirect to="/login"/>;
+          }
+        if(isAuthenticated() && userrole === 'Admin') { 
+          return  children
+         }else{ 
+           return <Redirect
               to={{
-                pathname: "/",
+                pathname: "/login",
                 state: { from: location }
               }}
             />
-          )
+        
+          }
+
+          
         }
+      }
       />
   
     </>  
